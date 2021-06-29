@@ -5,19 +5,19 @@ import './style.css'
 
 const Menu = () => {
     return (
-        <div>
-            <ul>
+        <nav>
+            <ul className="menu">
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link className="link" to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/simpsons">Simpsons</Link>
+                    <Link className="link" to="/simpsons">Simpsons</Link>
                 </li>
                 <li>
                     {/* <Link to="TENHO QUE ADICIONAR meu link aqui">AQUI SOU EU QUE VOU ADICONAR</Link> */}
                 </li>
             </ul>
-        </div>
+        </nav>
     )
 }
 
