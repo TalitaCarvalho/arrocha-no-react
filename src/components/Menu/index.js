@@ -11,10 +11,10 @@ const Menu = () => {
                     <Link className="link" to="/">Home</Link>
                 </li>
                 <li>
-                    <Link className="link" to="/simpsons">Simpsons</Link>
+                    <Link className="link" to="/rick-and-morty">Rick & Morty</Link>
                 </li>
                 <li>
-                    {/* <Link to="TENHO QUE ADICIONAR meu link aqui">AQUI SOU EU QUE VOU ADICONAR</Link> */}
+                    <Link className="link" to="/sobre">Sobre</Link>
                 </li>
             </ul>
         </nav>

@@ -1,0 +1,47 @@
+.content {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.search-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    height: 35px;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.persons-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    color: black;
+    text-align: center;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin: 0 auto;
+    width: 80%;
+    font-family: 'Architects Daughter', cursive;
+    margin-bottom: 15px;
+}
+
+.card img {
+    border-radius: 100px;
+    max-width: 180px;
+    max-height: 180px;
+}

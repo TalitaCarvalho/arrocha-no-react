@@ -1,4 +1,5 @@
-estilo global
+@import url("@mdi/font/css/materialdesignicons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Architects+Daughter&display=swap');
 
 *{
     margin: 0;
@@ -7,6 +8,7 @@ estilo global
 }
 
 body{
+    font-family: 'Akaya Kanadaka', cursive !important;
     color: rgb(255, 255, 255);
     background: linear-gradient(329.54deg, #720869 0%, #4f2158 100%);
 }

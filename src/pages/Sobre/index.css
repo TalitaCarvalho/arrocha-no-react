@@ -1,0 +1,29 @@
+.sobre {
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image {
+    max-width: 20em;
+    max-height: 20em;
+    border-radius: 200px;
+}
+
+.bio {
+    margin-left: 2em;
+}
+
+.bio h1 {
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+
+.bio p {
+    font-size: 1.3rem;
+    line-height: 22px;
+}
